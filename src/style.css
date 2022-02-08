@@ -1,0 +1,266 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    font-size: 40px;
+    background-color: rgba(255, 245, 245, 0.842);
+}
+
+#first .container-fluid span {
+    font-size: 40px;
+    padding-top: 7px;
+    font-weight: bold;
+    margin-top: 27px;
+    position: absolute;
+    padding-right: 8px;
+    color: rgb(223, 152, 46)
+}
+
+#first h1 {
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(223, 152, 46);
+    line-height: 70px;
+}
+
+
+
+nav.navbar .collapse {
+    padding-top: 42px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+#navbarNavAltMarkup .nav-item {
+    padding-left: 10px;
+
+}
+
+.btn {
+
+    background-color: rgba(226, 226, 226, 0.842);
+    margin-right: 5px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(223, 152, 46);
+}
+
+#carousel {
+    padding: 20px;
+    margin: auto;
+}
+
+#carousel img {
+    height: 500px;
+}
+
+#two h2:after {
+    content: "";
+    width: 125px;
+    height: 2px;
+    background-color: rgb(223, 152, 46);
+    color: rgb(223, 152, 46);
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#two {
+    background-color: rgba(226, 226, 226, 0.842);
+
+}
+
+#two {
+    transition: all 2s ease-in;
+}
+
+#two h3 {
+    text-align: right;
+    padding-top: 14px;
+    margin-top: 14px;
+}
+
+#two h2 {
+    padding-top: 30px;
+}
+
+#two h3:after {
+    content: "";
+    background-color: rgb(223, 152, 46);
+    color: rgb(223, 152, 46);
+    display: block;
+    width: 80px;
+    height: 2px;
+    position: relative;
+    margin-top: 5px;
+}
+
+#two img {
+    margin: auto;
+    width: 80%;
+
+}
+
+.rating {
+    position: static;
+    padding: 10px 0;
+    margin: auto;
+    width: 81%;
+    text-align: right;
+}
+
+.rating .active {
+    color: rgb(223, 152, 46);
+}
+
+#carousel2 {
+    padding: 20px;
+    margin: auto;
+}
+
+#carousel2 img {
+    height: 500px;
+    margin: auto;
+}
+
+
+#carousel2 #buttonnext {
+    background-color: #df982e;
+    border-radius: 50%;
+    margin: auto;
+    padding: 5px !important;
+    width: 3%;
+    height: 41px;
+    font-weight: 9px;
+
+}
+
+#carousel2 #buttonprev {
+    background-color: #df982e;
+    border-radius: 50%;
+    margin: auto;
+    padding: 5px !important;
+    width: 3%;
+    height: 41px;
+    font-weight: 9px;
+
+}
+
+.rating2 {
+    font-size: 23px;
+}
+
+.rating2 .active {
+    color: rgb(223, 152, 46);
+}
+
+#three h2 {
+    padding-top: 30px;
+}
+
+#three h2:after {
+    content: "";
+    width: 125px;
+    height: 2px;
+    background-color: rgb(223, 152, 46);
+    color: rgb(223, 152, 46);
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 4.25rem;
+    font-weight: bolder;
+    color: #d9a548;
+    margin: auto;
+
+}
+
+#four {
+    padding-top: 20px;
+    margin-top: 60px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    font-size: 15px;
+}
+
+#four .overlay {
+    background-color: rgba(59, 59, 59, 0.219)
+}
+
+#four i {
+    padding: 1px 7px;
+    margin: 5px 0px 0px 2px;
+
+}
+
+#four footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+#four .row .contactus {
+    display: inline-flex;
+    justify-content: center;
+    padding: 5px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+
+#four .btn-dark {
+    text-decoration: none;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5%;
+    transition: 1s;
+
+}
+
+@media (max-width: 991px) {
+    #first .container-fluid .navbar-toggler-icon {
+        position: relative;
+        margin-top: 0px;
+        width: 29px;
+        height: 33px;
+    }
+
+    #navbarNavAltMarkup .nav-item {
+        padding-left: 10px;
+        margin: auto;
+        width: 61%;
+    }
+
+    nav.navbar .collapse {
+        margin-right: 0px;
+    }
+
+    .fa-shopping-cart {
+
+        display: block !important;
+    }
+
+    ul.navbar-nav.custom-nav {
+        margin-top: 18px;
+    }
+}
+
+@media (max-width: 967px) {
+    #carousel2 img {
+        height: 300px;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #carousel img {
+        height: 400px;
+        margin: auto;
+    }
+  
+}
